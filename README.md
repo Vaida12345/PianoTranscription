@@ -1,7 +1,14 @@
 # PianoTranscription
 Macos execuatble and app of [Piano transcription](https://github.com/bytedance/piano_transcription), which generates midi files with music using Machine Learning.
 
-**UNDER DEVELOPMENT**
+## Interface
+Written with SwiftUI.
+
+<img width="1227" alt="Screen Shot 2022-03-16 at 7 03 43 PM" src="https://user-images.githubusercontent.com/91354917/158576353-f44ab0ce-1f20-4f99-8882-dbf5466f0796.png">
+
+# Note
+
+If you quit the app during inference, you need to force quit PianoTranscription in Activity Monity manually, otherwise, the inference would not stop.
 
 ## Portable Executable File
 All the files are complied from [Piano transcription](https://github.com/bytedance/piano_transcription).
