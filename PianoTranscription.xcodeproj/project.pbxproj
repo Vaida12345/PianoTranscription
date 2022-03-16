@@ -11,6 +11,8 @@
 		B4ED15DC27E1BF5A00A0E814 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ED15DB27E1BF5A00A0E814 /* ContentView.swift */; };
 		B4ED15DE27E1BF5A00A0E814 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4ED15DD27E1BF5A00A0E814 /* Assets.xcassets */; };
 		B4ED15E127E1BF5A00A0E814 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4ED15E027E1BF5A00A0E814 /* Preview Assets.xcassets */; };
+		B4ED15EA27E1BFAD00A0E814 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B4ED15E827E1BFAD00A0E814 /* README.md */; };
+		B4ED15EB27E1BFAD00A0E814 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B4ED15E927E1BFAD00A0E814 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		B4ED15DD27E1BF5A00A0E814 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4ED15E027E1BF5A00A0E814 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B4ED15E227E1BF5A00A0E814 /* PianoTranscription.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PianoTranscription.entitlements; sourceTree = "<group>"; };
+		B4ED15E827E1BFAD00A0E814 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B4ED15E927E1BFAD00A0E814 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +41,7 @@
 			isa = PBXGroup;
 			children = (
 				B4ED15D827E1BF5A00A0E814 /* PianoTranscription */,
+				B4ED15EC27E1BFB200A0E814 /* Assets */,
 				B4ED15D727E1BF5A00A0E814 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,9 +59,7 @@
 			children = (
 				B4ED15D927E1BF5A00A0E814 /* PianoTranscriptionApp.swift */,
 				B4ED15DB27E1BF5A00A0E814 /* ContentView.swift */,
-				B4ED15DD27E1BF5A00A0E814 /* Assets.xcassets */,
-				B4ED15E227E1BF5A00A0E814 /* PianoTranscription.entitlements */,
-				B4ED15DF27E1BF5A00A0E814 /* Preview Content */,
+				B4ED15ED27E1BFC100A0E814 /* Assets */,
 			);
 			path = PianoTranscription;
 			sourceTree = "<group>";
@@ -67,6 +70,25 @@
 				B4ED15E027E1BF5A00A0E814 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B4ED15EC27E1BFB200A0E814 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B4ED15E927E1BFAD00A0E814 /* LICENSE */,
+				B4ED15E827E1BFAD00A0E814 /* README.md */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		B4ED15ED27E1BFC100A0E814 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B4ED15DD27E1BF5A00A0E814 /* Assets.xcassets */,
+				B4ED15E227E1BF5A00A0E814 /* PianoTranscription.entitlements */,
+				B4ED15DF27E1BF5A00A0E814 /* Preview Content */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +149,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4ED15EA27E1BFAD00A0E814 /* README.md in Resources */,
 				B4ED15E127E1BF5A00A0E814 /* Preview Assets.xcassets in Resources */,
+				B4ED15EB27E1BFAD00A0E814 /* LICENSE in Resources */,
 				B4ED15DE27E1BF5A00A0E814 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
