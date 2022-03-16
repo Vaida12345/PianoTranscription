@@ -45,3 +45,4 @@ Note: example.py from [Piano transcription](https://github.com/bytedance/piano_t
 
 ## Credits
 - [Piano transcription](https://github.com/bytedance/piano_transcription)
+- [Swift Tagger](https://github.com/NCrusher74/SwiftTagger)
