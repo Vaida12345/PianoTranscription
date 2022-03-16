@@ -20,6 +20,8 @@ Download [here]().
 ### Example:
 `PianoTranscription --audio_path='music.m4a' --output_midi_path='file.midi' --checkpoint_path='checkpoint.pth'`
 
+You might want to allow apps downloaded from Anywhere, by entering this into Terminal: `sudo spctl --master-disable`. Otherwise, mac would keep telling you that it cannot varify the developer.
+
 ### If you want to build it yourself:
 
 install `pyinstaller` > In your terminal, 
