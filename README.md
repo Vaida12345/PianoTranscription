@@ -8,7 +8,7 @@ This is a portable executable file, hence you do not need to install anything.
 
 Download [here]().
 
-Arguments:
+### Arguments:
 ```
 --audio_path
 --output_midi_path
@@ -16,6 +16,17 @@ Arguments:
 --cuda
 ```
 `checkpoint_path` the path for the checkpoint file (from [Piano transcription](https://github.com/bytedance/piano_transcription), download [here]()).
+
+### Example:
+`PianoTranscription --audio_path='music.m4a' --output_midi_path='file.midi' --checkpoint_path='checkpoint.pth'`
+
+### If you want to build it yourself:
+
+install `pyinstaller` > In your terminal, 
+
+`pyinstaller example.py --collect-all piano_transcription_interface --collect-all torch --collect-all ffmpeg --collect-all librose --collect-all tensorflow --collect-all sklearn --collect-all scipy`
+
+Note: example.py from [Piano transcription](https://github.com/bytedance/piano_transcription).
 
 ## Credits
 - [Piano transcription](https://github.com/bytedance/piano_transcription)
