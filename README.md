@@ -3,7 +3,9 @@ Macos execuatble and app of [Piano transcription](https://github.com/bytedance/p
 
 ## Portable Executable File
 All the files are complied from [Piano transcription](https://github.com/bytedance/piano_transcription).
+
 This is a portable executable file, hence you do not need to install anything.
+
 Download [here]().
 
 Arguments:
@@ -14,3 +16,6 @@ Arguments:
 --cuda
 ```
 `checkpoint_path` the path for the checkpoint file (from [Piano transcription](https://github.com/bytedance/piano_transcription), download [here]()).
+
+## Credits
+- [Piano transcription](https://github.com/bytedance/piano_transcription)
