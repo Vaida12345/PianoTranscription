@@ -7,15 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B4B0959F27E1C5D200AA30CD /* SwiftTagger in Frameworks */ = {isa = PBXBuildFile; productRef = B4B0959E27E1C5D200AA30CD /* SwiftTagger */; };
+		B4B095A827E1CA0C00AA30CD /* Fraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B095A227E1CA0C00AA30CD /* Fraction.swift */; };
+		B4B095A927E1CA0C00AA30CD /* Int10.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B095A327E1CA0C00AA30CD /* Int10.swift */; };
+		B4B095AA27E1CA0C00AA30CD /* Arithmetical.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B095A427E1CA0C00AA30CD /* Arithmetical.swift */; };
+		B4B095AB27E1CA0C00AA30CD /* Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B095A627E1CA0C00AA30CD /* Support.swift */; };
+		B4B095AC27E1CA0C00AA30CD /* FinderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B095A727E1CA0C00AA30CD /* FinderItem.swift */; };
+		B4B095AE27E1DE2700AA30CD /* PianoTranscription.icns in Resources */ = {isa = PBXBuildFile; fileRef = B4B095AD27E1DE2700AA30CD /* PianoTranscription.icns */; };
+		B4C40AA627E1C3FE0042D371 /* Inference.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C40AA527E1C3FE0042D371 /* Inference.swift */; };
 		B4ED15DA27E1BF5A00A0E814 /* PianoTranscriptionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ED15D927E1BF5A00A0E814 /* PianoTranscriptionApp.swift */; };
 		B4ED15DC27E1BF5A00A0E814 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ED15DB27E1BF5A00A0E814 /* ContentView.swift */; };
 		B4ED15DE27E1BF5A00A0E814 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4ED15DD27E1BF5A00A0E814 /* Assets.xcassets */; };
 		B4ED15E127E1BF5A00A0E814 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4ED15E027E1BF5A00A0E814 /* Preview Assets.xcassets */; };
 		B4ED15EA27E1BFAD00A0E814 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B4ED15E827E1BFAD00A0E814 /* README.md */; };
 		B4ED15EB27E1BFAD00A0E814 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B4ED15E927E1BFAD00A0E814 /* LICENSE */; };
+		B4ED15F027E1C2A500A0E814 /* PianoTranscription in Resources */ = {isa = PBXBuildFile; fileRef = B4ED15EF27E1C2A500A0E814 /* PianoTranscription */; };
+		B4ED15F227E1C2AE00A0E814 /* checkpoint.pth in Resources */ = {isa = PBXBuildFile; fileRef = B4ED15F127E1C2AE00A0E814 /* checkpoint.pth */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B4B095A227E1CA0C00AA30CD /* Fraction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fraction.swift; sourceTree = "<group>"; };
+		B4B095A327E1CA0C00AA30CD /* Int10.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Int10.swift; sourceTree = "<group>"; };
+		B4B095A427E1CA0C00AA30CD /* Arithmetical.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Arithmetical.swift; sourceTree = "<group>"; };
+		B4B095A627E1CA0C00AA30CD /* Support.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Support.swift; sourceTree = "<group>"; };
+		B4B095A727E1CA0C00AA30CD /* FinderItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinderItem.swift; sourceTree = "<group>"; };
+		B4B095AD27E1DE2700AA30CD /* PianoTranscription.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = PianoTranscription.icns; sourceTree = "<group>"; };
+		B4C40AA527E1C3FE0042D371 /* Inference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inference.swift; sourceTree = "<group>"; };
 		B4ED15D627E1BF5A00A0E814 /* PianoTranscription.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PianoTranscription.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4ED15D927E1BF5A00A0E814 /* PianoTranscriptionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoTranscriptionApp.swift; sourceTree = "<group>"; };
 		B4ED15DB27E1BF5A00A0E814 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,6 +41,8 @@
 		B4ED15E227E1BF5A00A0E814 /* PianoTranscription.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PianoTranscription.entitlements; sourceTree = "<group>"; };
 		B4ED15E827E1BFAD00A0E814 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B4ED15E927E1BFAD00A0E814 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B4ED15EF27E1C2A500A0E814 /* PianoTranscription */ = {isa = PBXFileReference; lastKnownFileType = folder; name = PianoTranscription; path = Models/PianoTranscription; sourceTree = "<group>"; };
+		B4ED15F127E1C2AE00A0E814 /* checkpoint.pth */ = {isa = PBXFileReference; lastKnownFileType = file; name = checkpoint.pth; path = Models/checkpoint.pth; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +50,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4B0959F27E1C5D200AA30CD /* SwiftTagger in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B4B095A027E1CA0C00AA30CD /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				B4B095A127E1CA0C00AA30CD /* Numerics */,
+				B4B095A527E1CA0C00AA30CD /* Support */,
+			);
+			name = Support;
+			path = ../../../../Swift/testRoom/testRoom/testRoom/Support;
+			sourceTree = "<group>";
+		};
+		B4B095A127E1CA0C00AA30CD /* Numerics */ = {
+			isa = PBXGroup;
+			children = (
+				B4B095A227E1CA0C00AA30CD /* Fraction.swift */,
+				B4B095A327E1CA0C00AA30CD /* Int10.swift */,
+				B4B095A427E1CA0C00AA30CD /* Arithmetical.swift */,
+			);
+			path = Numerics;
+			sourceTree = "<group>";
+		};
+		B4B095A527E1CA0C00AA30CD /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				B4B095A627E1CA0C00AA30CD /* Support.swift */,
+				B4B095A727E1CA0C00AA30CD /* FinderItem.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
 		B4ED15CD27E1BF5A00A0E814 = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +108,9 @@
 			children = (
 				B4ED15D927E1BF5A00A0E814 /* PianoTranscriptionApp.swift */,
 				B4ED15DB27E1BF5A00A0E814 /* ContentView.swift */,
+				B4C40AA527E1C3FE0042D371 /* Inference.swift */,
+				B4B095A027E1CA0C00AA30CD /* Support */,
+				B4ED15EE27E1C28F00A0E814 /* Installed Models */,
 				B4ED15ED27E1BFC100A0E814 /* Assets */,
 			);
 			path = PianoTranscription;
@@ -85,10 +137,20 @@
 			isa = PBXGroup;
 			children = (
 				B4ED15DD27E1BF5A00A0E814 /* Assets.xcassets */,
+				B4B095AD27E1DE2700AA30CD /* PianoTranscription.icns */,
 				B4ED15E227E1BF5A00A0E814 /* PianoTranscription.entitlements */,
 				B4ED15DF27E1BF5A00A0E814 /* Preview Content */,
 			);
 			name = Assets;
+			sourceTree = "<group>";
+		};
+		B4ED15EE27E1C28F00A0E814 /* Installed Models */ = {
+			isa = PBXGroup;
+			children = (
+				B4ED15F127E1C2AE00A0E814 /* checkpoint.pth */,
+				B4ED15EF27E1C2A500A0E814 /* PianoTranscription */,
+			);
+			name = "Installed Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,6 +169,9 @@
 			dependencies = (
 			);
 			name = PianoTranscription;
+			packageProductDependencies = (
+				B4B0959E27E1C5D200AA30CD /* SwiftTagger */,
+			);
 			productName = PianoTranscription;
 			productReference = B4ED15D627E1BF5A00A0E814 /* PianoTranscription.app */;
 			productType = "com.apple.product-type.application";
@@ -135,6 +200,9 @@
 				Base,
 			);
 			mainGroup = B4ED15CD27E1BF5A00A0E814;
+			packageReferences = (
+				B4B0959D27E1C5D200AA30CD /* XCRemoteSwiftPackageReference "SwiftTagger" */,
+			);
 			productRefGroup = B4ED15D727E1BF5A00A0E814 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -149,9 +217,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4B095AE27E1DE2700AA30CD /* PianoTranscription.icns in Resources */,
 				B4ED15EA27E1BFAD00A0E814 /* README.md in Resources */,
 				B4ED15E127E1BF5A00A0E814 /* Preview Assets.xcassets in Resources */,
+				B4ED15F227E1C2AE00A0E814 /* checkpoint.pth in Resources */,
 				B4ED15EB27E1BFAD00A0E814 /* LICENSE in Resources */,
+				B4ED15F027E1C2A500A0E814 /* PianoTranscription in Resources */,
 				B4ED15DE27E1BF5A00A0E814 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -163,8 +234,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4B095AB27E1CA0C00AA30CD /* Support.swift in Sources */,
+				B4C40AA627E1C3FE0042D371 /* Inference.swift in Sources */,
+				B4B095AC27E1CA0C00AA30CD /* FinderItem.swift in Sources */,
 				B4ED15DC27E1BF5A00A0E814 /* ContentView.swift in Sources */,
+				B4B095A927E1CA0C00AA30CD /* Int10.swift in Sources */,
 				B4ED15DA27E1BF5A00A0E814 /* PianoTranscriptionApp.swift in Sources */,
+				B4B095AA27E1CA0C00AA30CD /* Arithmetical.swift in Sources */,
+				B4B095A827E1CA0C00AA30CD /* Fraction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,11 +375,13 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_FILE = PianoTranscription/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "© Vaida";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Vaida.PianoTranscription;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -325,11 +404,13 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_FILE = PianoTranscription/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "© Vaida";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Vaida.PianoTranscription;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -360,6 +441,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B4B0959D27E1C5D200AA30CD /* XCRemoteSwiftPackageReference "SwiftTagger" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/NCrusher74/SwiftTagger";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B4B0959E27E1C5D200AA30CD /* SwiftTagger */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B4B0959D27E1C5D200AA30CD /* XCRemoteSwiftPackageReference "SwiftTagger" */;
+			productName = SwiftTagger;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B4ED15CE27E1BF5A00A0E814 /* Project object */;
 }

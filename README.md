@@ -1,5 +1,5 @@
 # PianoTranscription
-Macos execuatble and app of [Piano transcription](https://github.com/bytedance/piano_transcription), which generates midi files with music using Machine Learning.
+MacOS executable and app of [Piano transcription](https://github.com/bytedance/piano_transcription), which generates midi files with music using Machine Learning.
 
 ## Install
 Files and source code could be found in [releases](https://github.com/Vaida12345/PianoTranscription/releases).
@@ -45,3 +45,4 @@ Note: example.py from [Piano transcription](https://github.com/bytedance/piano_t
 
 ## Credits
 - [Piano transcription](https://github.com/bytedance/piano_transcription)
+- [Swift Tagger](https://github.com/NCrusher74/SwiftTagger)
