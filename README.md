@@ -26,7 +26,7 @@ You might want to allow apps downloaded from Anywhere, by entering this into Ter
 
 install `pyinstaller` > In your terminal, 
 
-`pyinstaller example.py --collect-all piano_transcription_interface --collect-all torch --collect-all ffmpeg --collect-all librose --collect-all tensorflow --collect-all sklearn --collect-all scipy`
+`pyinstaller example.py --collect-all piano_transcription_interface --collect-all torch --collect-all ffmpeg --collect-all librose --collect-all tensorflow --collect-all sklearn --collect-all scipy --collect-all ffmpeg`
 
 Note: example.py from [Piano transcription](https://github.com/bytedance/piano_transcription).
 
