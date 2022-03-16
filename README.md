@@ -8,7 +8,7 @@ All the files are complied from [Piano transcription](https://github.com/bytedan
 
 This is a portable executable file, hence you do not need to install anything.
 
-Download [here]().
+Download [here](https://github.com/Vaida12345/PianoTranscription/releases/tag/executable).
 
 ### Arguments:
 ```
@@ -17,7 +17,7 @@ Download [here]().
 --checkpoint_path
 --cuda
 ```
-`checkpoint_path` the path for the checkpoint file (from [Piano transcription](https://github.com/bytedance/piano_transcription), download [here]()).
+`checkpoint_path` the path for the checkpoint file (from [Piano transcription](https://github.com/bytedance/piano_transcription), download [here](https://github.com/Vaida12345/PianoTranscription/releases/tag/executable)).
 
 ### Example:
 `PianoTranscription --audio_path='music.m4a' --output_midi_path='file.midi' --checkpoint_path='checkpoint.pth'`
