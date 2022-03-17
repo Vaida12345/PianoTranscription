@@ -6,6 +6,8 @@ Files and source code could be found in [releases](https://github.com/Vaida12345
 
 Note: If mac says the app was damaged / unknown developer, please go to `System Preferences > Security & Privacy > General`, and click `Open Anyway`. [Show Details.](https://github.com/Vaida12345/Annotation/wiki#why-i-cant-open-the-app)
 
+You might want to allow apps downloaded from Anywhere, by entering this into Terminal: `sudo spctl --master-disable`. Otherwise, mac would keep telling you that it cannot varify the developer. (As the app use a lots of third party programs, all of which included in [Piano transcription](https://github.com/bytedance/piano_transcription))
+
 ## Interface
 Written with SwiftUI.
 
