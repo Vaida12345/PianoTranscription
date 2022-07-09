@@ -16,6 +16,9 @@ Written with SwiftUI.
 # Note
 If you quit the app during inference, you need to force quit PianoTranscription in Activity Monity manually, otherwise, the inference would not stop.
 
+If you cannot open the app or inference, try to open the app (folder), then use `chmod 755 <#file#>` to make the file executable.
+
+
 ## Portable Executable File
 All the files are complied from [Piano transcription](https://github.com/bytedance/piano_transcription).
 
