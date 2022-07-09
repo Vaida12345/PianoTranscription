@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Support
 
 @main
 struct PianoTranscriptionApp: App {

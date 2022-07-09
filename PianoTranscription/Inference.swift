@@ -6,32 +6,57 @@
 //
 
 import Foundation
+import Support
+import AppKit
 
-fileprivate func inference(input: FinderItem, output: FinderItem, update: @escaping (_ file: String) -> Void) {
-    let pianoTransItem = FinderItem(at: Bundle.main.bundlePath + "/Contents/Resources/PianoTranscription/PianoTranscription")
-    let checkpointItem = FinderItem(at: Bundle.main.bundlePath + "/Contents/Resources/checkpoint.pth")
-    
-    update(input.path + "\n")
-    update("\(pianoTransItem.shellPath) --audio_path=\'\(input.path)\' --output_midi_path=\'\(output.path)\' --checkpoint_path=\'\(checkpointItem.path)\'" + "\n")
-    let value = shell(["\(pianoTransItem.shellPath) --audio_path=\'\(input.path)\' --output_midi_path=\'\(output.path)\' --checkpoint_path=\'\(checkpointItem.path)\'"])
-    update(value ?? "")
+struct InferenceSettings {
+    var batchSize: Int = 10
+    var onsetThreshold: Double = 0.3
+    var offsetThreshold: Double = 0.3
+    var frameThreshold: Double = 0.1
+    var padelOffsetThreshold: Double = 0.2
 }
 
-extension Array where Element == FinderItem {
+private func inferenceNewProgress(_ line: String) -> Double? {
+    let components = line.components(separatedBy: "/")
+    guard components.count == 2 else { return nil }
+    guard let lhs = Int(components.first!), let rhs = Int(components.last!) else { return nil }
+    return Double(lhs) / Double(rhs)
+}
+
+
+fileprivate func inference(settings: InferenceSettings, input: FinderItem, output: FinderItem, manager: ShellManager, update: @escaping (_ file: String) -> Void, updateP: @escaping (_ progress: Double) -> Void) {
+    let pianoTransItem = FinderItem.bundleDirectory.with(subPath: "Contents/Resources/PianoTranscription/PianoTranscription")
+    let checkpointItem = FinderItem.bundleDirectory.with(subPath: "Contents/Resources/checkpoint.pth")
     
-    func inference(update: @escaping (_ file: String) -> Void, next: @escaping (_ file: String) -> Void, completion: @escaping () -> Void) {
-        let outputFolder = FinderItem(at: FinderItem.downloadsItem.path + "/Piano Transcription")
-        do {
-            try outputFolder.generateDirectory(isFolder: true)
-        } catch { print(error) }
+    manager.onOutputChanged { newLine in
+        update(newLine + "\n")
+        guard let progress = inferenceNewProgress(newLine) else { return }
+        updateP(progress)
+    }
+    manager.run(arguments: "\(pianoTransItem.shellPath) --audio_path=\'\(input.path)\' --output_midi_path=\'\(output.path)\' --checkpoint_path=\'\(checkpointItem.path)\' --onsetThreshold=\(settings.onsetThreshold) --offsetThreshold=\(settings.offsetThreshold) --frameThreshold=\(settings.frameThreshold) --padelOffsetThreshold=\(settings.padelOffsetThreshold) --batchSize=\(settings.batchSize)")
+    update("Started shell command:\n")
+    update("\(pianoTransItem.shellPath) --audio_path=\'\(input.path)\' --output_midi_path=\'\(output.path)\' --checkpoint_path=\'\(checkpointItem.path)\' --onsetThreshold=\(settings.onsetThreshold) --offsetThreshold=\(settings.offsetThreshold) --frameThreshold=\(settings.frameThreshold) --padelOffsetThreshold=\(settings.padelOffsetThreshold) --batchSize=\(settings.batchSize)")
+}
+
+
+extension Array where Element == ItemContainer {
+    
+    func inference(managers: ShellManagers, settings: InferenceSettings, update: @escaping (_ file: String) -> Void, next: @escaping (_ file: String) -> Void, completion: @escaping () -> Void, updateP: @escaping (_ progress: Double) -> Void) {
+        let outputFolder = FinderItem.downloadsDirectory.with(subPath: "Piano Transcription")
+        outputFolder.generateDirectory(isFolder: true)
         
-        
-        DispatchQueue.concurrentPerform(iterations: self.count) { index in
-            let outputName = self[index].relativePath ?? self[index].name
-            var output = FinderItem(at: outputFolder.path + "/\(outputName).midi")
+        for index in 0..<self.count {
+            let outputName = self[index].relativePath ?? self[index].fileName
+            let output = outputFolder.with(subPath: "\(outputName).midi")
             output.generateOutputPath()
-            PianoTranscription.inference(input: self[index], output: output, update: update)
             
+            let manager = managers.addManager()
+            PianoTranscription.inference(settings: settings, input: self[index].item, output: output, manager: manager, update: update) { newProgress in
+                updateP((newProgress + Double(index + 1)) / Double(self.count))
+            }
+            
+            manager.wait()
             next(self[index].name)
         }
         

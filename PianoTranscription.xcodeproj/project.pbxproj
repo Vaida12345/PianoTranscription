@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B4B0959F27E1C5D200AA30CD /* SwiftTagger in Frameworks */ = {isa = PBXBuildFile; productRef = B4B0959E27E1C5D200AA30CD /* SwiftTagger */; };
-		B4B095A827E1CA0C00AA30CD /* Fraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B095A227E1CA0C00AA30CD /* Fraction.swift */; };
-		B4B095A927E1CA0C00AA30CD /* Int10.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B095A327E1CA0C00AA30CD /* Int10.swift */; };
-		B4B095AA27E1CA0C00AA30CD /* Arithmetical.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B095A427E1CA0C00AA30CD /* Arithmetical.swift */; };
-		B4B095AB27E1CA0C00AA30CD /* Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B095A627E1CA0C00AA30CD /* Support.swift */; };
-		B4B095AC27E1CA0C00AA30CD /* FinderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B095A727E1CA0C00AA30CD /* FinderItem.swift */; };
+		B41362A328798FD7002762E4 /* Support in Frameworks */ = {isa = PBXBuildFile; productRef = B41362A228798FD7002762E4 /* Support */; };
+		B41362A6287991C2002762E4 /* Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41362A5287991C2002762E4 /* Support.swift */; };
+		B41362A82879984B002762E4 /* ListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41362A72879984B002762E4 /* ListItemView.swift */; };
+		B41362AA2879985F002762E4 /* ProcessingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41362A92879985F002762E4 /* ProcessingView.swift */; };
+		B41362AC2879986F002762E4 /* ConfigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41362AB2879986F002762E4 /* ConfigView.swift */; };
+		B45AF5E127E6CE4C00CF7E2C /* SwiftTagger in Frameworks */ = {isa = PBXBuildFile; productRef = B45AF5E027E6CE4C00CF7E2C /* SwiftTagger */; };
 		B4B095AE27E1DE2700AA30CD /* PianoTranscription.icns in Resources */ = {isa = PBXBuildFile; fileRef = B4B095AD27E1DE2700AA30CD /* PianoTranscription.icns */; };
 		B4C40AA627E1C3FE0042D371 /* Inference.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C40AA527E1C3FE0042D371 /* Inference.swift */; };
 		B4ED15DA27E1BF5A00A0E814 /* PianoTranscriptionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ED15D927E1BF5A00A0E814 /* PianoTranscriptionApp.swift */; };
@@ -21,16 +21,14 @@
 		B4ED15E127E1BF5A00A0E814 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4ED15E027E1BF5A00A0E814 /* Preview Assets.xcassets */; };
 		B4ED15EA27E1BFAD00A0E814 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B4ED15E827E1BFAD00A0E814 /* README.md */; };
 		B4ED15EB27E1BFAD00A0E814 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B4ED15E927E1BFAD00A0E814 /* LICENSE */; };
-		B4ED15F027E1C2A500A0E814 /* PianoTranscription in Resources */ = {isa = PBXBuildFile; fileRef = B4ED15EF27E1C2A500A0E814 /* PianoTranscription */; };
-		B4ED15F227E1C2AE00A0E814 /* checkpoint.pth in Resources */ = {isa = PBXBuildFile; fileRef = B4ED15F127E1C2AE00A0E814 /* checkpoint.pth */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B4B095A227E1CA0C00AA30CD /* Fraction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fraction.swift; sourceTree = "<group>"; };
-		B4B095A327E1CA0C00AA30CD /* Int10.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Int10.swift; sourceTree = "<group>"; };
-		B4B095A427E1CA0C00AA30CD /* Arithmetical.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Arithmetical.swift; sourceTree = "<group>"; };
-		B4B095A627E1CA0C00AA30CD /* Support.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Support.swift; sourceTree = "<group>"; };
-		B4B095A727E1CA0C00AA30CD /* FinderItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinderItem.swift; sourceTree = "<group>"; };
+		B41362A128798FD4002762E4 /* DataBase */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = DataBase; path = ../../Packages/DataBase; sourceTree = "<group>"; };
+		B41362A5287991C2002762E4 /* Support.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Support.swift; sourceTree = "<group>"; };
+		B41362A72879984B002762E4 /* ListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemView.swift; sourceTree = "<group>"; };
+		B41362A92879985F002762E4 /* ProcessingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessingView.swift; sourceTree = "<group>"; };
+		B41362AB2879986F002762E4 /* ConfigView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigView.swift; sourceTree = "<group>"; };
 		B4B095AD27E1DE2700AA30CD /* PianoTranscription.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = PianoTranscription.icns; sourceTree = "<group>"; };
 		B4C40AA527E1C3FE0042D371 /* Inference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inference.swift; sourceTree = "<group>"; };
 		B4ED15D627E1BF5A00A0E814 /* PianoTranscription.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PianoTranscription.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,8 +39,6 @@
 		B4ED15E227E1BF5A00A0E814 /* PianoTranscription.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PianoTranscription.entitlements; sourceTree = "<group>"; };
 		B4ED15E827E1BFAD00A0E814 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B4ED15E927E1BFAD00A0E814 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		B4ED15EF27E1C2A500A0E814 /* PianoTranscription */ = {isa = PBXFileReference; lastKnownFileType = folder; name = PianoTranscription; path = Models/PianoTranscription; sourceTree = "<group>"; };
-		B4ED15F127E1C2AE00A0E814 /* checkpoint.pth */ = {isa = PBXFileReference; lastKnownFileType = file; name = checkpoint.pth; path = Models/checkpoint.pth; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,40 +46,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4B0959F27E1C5D200AA30CD /* SwiftTagger in Frameworks */,
+				B41362A328798FD7002762E4 /* Support in Frameworks */,
+				B45AF5E127E6CE4C00CF7E2C /* SwiftTagger in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B4B095A027E1CA0C00AA30CD /* Support */ = {
+		B41362A4287991B4002762E4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				B4B095A127E1CA0C00AA30CD /* Numerics */,
-				B4B095A527E1CA0C00AA30CD /* Support */,
+				B4ED15DB27E1BF5A00A0E814 /* ContentView.swift */,
+				B41362A72879984B002762E4 /* ListItemView.swift */,
+				B41362A92879985F002762E4 /* ProcessingView.swift */,
+				B41362AB2879986F002762E4 /* ConfigView.swift */,
 			);
-			name = Support;
-			path = ../../../../Swift/testRoom/testRoom/testRoom/Support;
+			path = Views;
 			sourceTree = "<group>";
 		};
-		B4B095A127E1CA0C00AA30CD /* Numerics */ = {
+		B4B097C327E3875000F22074 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B4B095A227E1CA0C00AA30CD /* Fraction.swift */,
-				B4B095A327E1CA0C00AA30CD /* Int10.swift */,
-				B4B095A427E1CA0C00AA30CD /* Arithmetical.swift */,
+				B41362A128798FD4002762E4 /* DataBase */,
 			);
-			path = Numerics;
-			sourceTree = "<group>";
-		};
-		B4B095A527E1CA0C00AA30CD /* Support */ = {
-			isa = PBXGroup;
-			children = (
-				B4B095A627E1CA0C00AA30CD /* Support.swift */,
-				B4B095A727E1CA0C00AA30CD /* FinderItem.swift */,
-			);
-			path = Support;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		B4ED15CD27E1BF5A00A0E814 = {
@@ -92,6 +79,7 @@
 				B4ED15D827E1BF5A00A0E814 /* PianoTranscription */,
 				B4ED15EC27E1BFB200A0E814 /* Assets */,
 				B4ED15D727E1BF5A00A0E814 /* Products */,
+				B4B097C327E3875000F22074 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,10 +95,9 @@
 			isa = PBXGroup;
 			children = (
 				B4ED15D927E1BF5A00A0E814 /* PianoTranscriptionApp.swift */,
-				B4ED15DB27E1BF5A00A0E814 /* ContentView.swift */,
+				B41362A4287991B4002762E4 /* Views */,
+				B41362A5287991C2002762E4 /* Support.swift */,
 				B4C40AA527E1C3FE0042D371 /* Inference.swift */,
-				B4B095A027E1CA0C00AA30CD /* Support */,
-				B4ED15EE27E1C28F00A0E814 /* Installed Models */,
 				B4ED15ED27E1BFC100A0E814 /* Assets */,
 			);
 			path = PianoTranscription;
@@ -144,15 +131,6 @@
 			name = Assets;
 			sourceTree = "<group>";
 		};
-		B4ED15EE27E1C28F00A0E814 /* Installed Models */ = {
-			isa = PBXGroup;
-			children = (
-				B4ED15F127E1C2AE00A0E814 /* checkpoint.pth */,
-				B4ED15EF27E1C2A500A0E814 /* PianoTranscription */,
-			);
-			name = "Installed Models";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -170,7 +148,8 @@
 			);
 			name = PianoTranscription;
 			packageProductDependencies = (
-				B4B0959E27E1C5D200AA30CD /* SwiftTagger */,
+				B45AF5E027E6CE4C00CF7E2C /* SwiftTagger */,
+				B41362A228798FD7002762E4 /* Support */,
 			);
 			productName = PianoTranscription;
 			productReference = B4ED15D627E1BF5A00A0E814 /* PianoTranscription.app */;
@@ -184,7 +163,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
-				LastUpgradeCheck = 1330;
+				LastUpgradeCheck = 1400;
 				TargetAttributes = {
 					B4ED15D527E1BF5A00A0E814 = {
 						CreatedOnToolsVersion = 13.3;
@@ -220,9 +199,7 @@
 				B4B095AE27E1DE2700AA30CD /* PianoTranscription.icns in Resources */,
 				B4ED15EA27E1BFAD00A0E814 /* README.md in Resources */,
 				B4ED15E127E1BF5A00A0E814 /* Preview Assets.xcassets in Resources */,
-				B4ED15F227E1C2AE00A0E814 /* checkpoint.pth in Resources */,
 				B4ED15EB27E1BFAD00A0E814 /* LICENSE in Resources */,
-				B4ED15F027E1C2A500A0E814 /* PianoTranscription in Resources */,
 				B4ED15DE27E1BF5A00A0E814 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -234,14 +211,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4B095AB27E1CA0C00AA30CD /* Support.swift in Sources */,
+				B41362A82879984B002762E4 /* ListItemView.swift in Sources */,
+				B41362AA2879985F002762E4 /* ProcessingView.swift in Sources */,
 				B4C40AA627E1C3FE0042D371 /* Inference.swift in Sources */,
-				B4B095AC27E1CA0C00AA30CD /* FinderItem.swift in Sources */,
+				B41362AC2879986F002762E4 /* ConfigView.swift in Sources */,
+				B41362A6287991C2002762E4 /* Support.swift in Sources */,
 				B4ED15DC27E1BF5A00A0E814 /* ContentView.swift in Sources */,
-				B4B095A927E1CA0C00AA30CD /* Int10.swift in Sources */,
 				B4ED15DA27E1BF5A00A0E814 /* PianoTranscriptionApp.swift in Sources */,
-				B4B095AA27E1CA0C00AA30CD /* Arithmetical.swift in Sources */,
-				B4B095A827E1CA0C00AA30CD /* Fraction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +257,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -341,6 +318,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -367,9 +345,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = PianoTranscription/PianoTranscription.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				COMPILER_INDEX_STORE_ENABLE = NO;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"PianoTranscription/Preview Content\"";
 				DEVELOPMENT_TEAM = 3PH93LN984;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -380,6 +361,11 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PianoTranscription/Models/PianoTranscription",
+					"$(PROJECT_DIR)/PianoTranscription",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
@@ -396,9 +382,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = PianoTranscription/PianoTranscription.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				COMPILER_INDEX_STORE_ENABLE = NO;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"PianoTranscription/Preview Content\"";
 				DEVELOPMENT_TEAM = 3PH93LN984;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -409,6 +398,11 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PianoTranscription/Models/PianoTranscription",
+					"$(PROJECT_DIR)/PianoTranscription",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
@@ -454,7 +448,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		B4B0959E27E1C5D200AA30CD /* SwiftTagger */ = {
+		B41362A228798FD7002762E4 /* Support */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Support;
+		};
+		B45AF5E027E6CE4C00CF7E2C /* SwiftTagger */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = B4B0959D27E1C5D200AA30CD /* XCRemoteSwiftPackageReference "SwiftTagger" */;
 			productName = SwiftTagger;
