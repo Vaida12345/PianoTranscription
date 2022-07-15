@@ -6,8 +6,6 @@ Files and source code could be found in [releases](https://github.com/Vaida12345
 
 Note: If mac says the app was damaged / unknown developer, please go to `System Preferences > Security & Privacy > General`, and click `Open Anyway`. [Show Details.](https://github.com/Vaida12345/Annotation/wiki#why-i-cant-open-the-app)
 
-You might want to allow apps downloaded from Anywhere, by entering this into Terminal: `sudo spctl --master-disable`. Otherwise, mac would keep telling you that it cannot varify the developer. (As the app use a lots of third party programs, all of which included in [Piano transcription](https://github.com/bytedance/piano_transcription))
-
 ## Interface
 Written with SwiftUI.
 
@@ -28,17 +26,25 @@ Download [here](https://github.com/Vaida12345/PianoTranscription/releases/tag/ex
 
 ### Arguments:
 ```
---audio_path
---output_midi_path
---checkpoint_path
---cuda
+--audio_path: The path for the source.
+--output_midi_path: The path for the destination.
+--checkpoint_path: The path for checkpoint file
 ```
-`checkpoint_path` the path for the checkpoint file (from [Piano transcription](https://github.com/bytedance/piano_transcription), download [here](https://github.com/Vaida12345/PianoTranscription/releases/tag/executable)).
+the checkpoint file can be obtained from [Piano transcription](https://github.com/bytedance/piano_transcription)
+
+#### Additional Arguments:
+These arguments are optional
+```
+--cuda: A boolean value determining whether gpu should be used.
+--onsetThreshold
+--offsetThreshold
+--frameThreshold
+--padelOffsetThreshold
+--batchSize
+```
 
 ### Example:
 `PianoTranscription --audio_path='music.m4a' --output_midi_path='file.midi' --checkpoint_path='checkpoint.pth'`
-
-You might want to allow apps downloaded from Anywhere, by entering this into Terminal: `sudo spctl --master-disable`. Otherwise, mac would keep telling you that it cannot varify the developer.
 
 ### If you want to build it yourself:
 
