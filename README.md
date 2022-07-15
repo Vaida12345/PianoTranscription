@@ -11,11 +11,9 @@ Written with SwiftUI.
 
 <img width="1227" alt="Screen Shot 2022-03-16 at 7 03 43 PM" src="https://user-images.githubusercontent.com/91354917/158576353-f44ab0ce-1f20-4f99-8882-dbf5466f0796.png">
 
-# Note
-If you quit the app during inference, you need to force quit PianoTranscription in Activity Monity manually, otherwise, the inference would not stop.
-
-If you cannot open the app or inference, try to open the app (folder), then use `chmod 755 <#file#>` to make the file executable.
-
+## Example
+- [Variations on the Kanon.midi.zip](https://github.com/Vaida12345/PianoTranscription/files/9120096/Variations.on.the.Kanon.midi.zip) (Variations on the Kanon, George Winston, December, by Pachelbel)
+- [Ballade No. 1 in G minor, Op. 23.midi.zip](https://github.com/Vaida12345/PianoTranscription/files/9120105/Ballade.No.1.in.G.minor.Op.23.midi.zip) (Ballade No. 1 in G minor, Op. 23, 四月は君の嘘, 四月は君の嘘 僕と君との音楽帳, by Chopin)
 
 ## Portable Executable File
 All the files are complied from [Piano transcription](https://github.com/bytedance/piano_transcription).
