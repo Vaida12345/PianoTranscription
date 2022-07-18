@@ -20,8 +20,6 @@ All the files are complied from [Piano transcription](https://github.com/bytedan
 
 This is a portable executable file, hence you do not need to install anything.
 
-Download [here](https://github.com/Vaida12345/PianoTranscription/releases/tag/executable).
-
 ### Arguments:
 ```
 --audio_path: The path for the source.
