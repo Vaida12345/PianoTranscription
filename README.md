@@ -1,5 +1,5 @@
 # PianoTranscription
-MacOS executable and app of [Piano transcription](https://github.com/bytedance/piano_transcription), which generates midi tracks on Piano from music using Machine Learning.
+Generates midi tracks on Piano from music using Machine Learning. This is the macOS executable and app of [Piano transcription](https://github.com/bytedance/piano_transcription)
 
 ## Install
 Files and source code could be found in [releases](https://github.com/Vaida12345/PianoTranscription/releases).
