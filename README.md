@@ -2,9 +2,11 @@
 Generates midi tracks on Piano from music using Machine Learning. This is the macOS executable and app of [Piano transcription](https://github.com/bytedance/piano_transcription)
 
 ## Install
-Files and source code could be found in [releases](https://github.com/Vaida12345/PianoTranscription/releases).
+Please use the [App Store Version](https://apps.apple.com/au/app/piano-transcriptionist/id6456886504), which uses CoreML instead of PyTorch.
 
-Note: If mac says the app was damaged / unknown developer, please go to `System Preferences > Security & Privacy > General`, and click `Open Anyway`. [Show Details.](https://github.com/Vaida12345/Annotation/wiki#why-i-cant-open-the-app)
+~~Files and source code could be found in [releases](https://github.com/Vaida12345/PianoTranscription/releases).~~
+
+~~Note: If mac says the app was damaged / unknown developer, please go to `System Preferences > Security & Privacy > General`, and click `Open Anyway`. [Show Details.](https://github.com/Vaida12345/Annotation/wiki#why-i-cant-open-the-app)~~
 
 ## Interface
 Written with SwiftUI.
