@@ -1,13 +1,13 @@
 ---
 name: Crash Report
 about: Tell us how the app has crashed
-title: ''
+title: App Crashed
 labels: Crash
 assignees: Vaida12345
 
 ---
 
-**When did it crash?"
+**When did it crash?**
 - Did it crash when you were selecting audio?
 - Maybe after clicking on *Start Inference* immediately?
 - Maybe the progress bar was half way full?
@@ -26,3 +26,4 @@ eg: iPhone 11, iOS 17
 eg: 1.0.1
 
 **Anything else you would like to add?**
+- Please enter any additional contexts here
