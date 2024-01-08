@@ -12,10 +12,7 @@ assignees: Vaida12345
 - Maybe after clicking on *Start Inference* immediately?
 - Maybe the progress bar was half way full?
 
-**Have you tried the *Memory Saver Mode*?**
-- It is okay to say no.
-
-**Can I have the audio please?**
+**Can I have the original audio please?**
 - Submitting the audio would definitely help me with the debugging.
 
 **Tell me about your device**
