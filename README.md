@@ -1,3 +1,5 @@
+This Repo is now archived, please use the appstore version, and report issues [here](https://github.com/Vaida12345/Piano-Transcriptionist).
+
 # PianoTranscription
 Generates midi tracks on Piano from music using Machine Learning. This is the macOS executable and app of [Piano transcription](https://github.com/bytedance/piano_transcription)
 
